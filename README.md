@@ -12,5 +12,7 @@ Blogs App
   - Patient can only view the blogs.
   - doctors can create blogs and save it as draft and published.
  
-To run the project : 
+To run the project you'll need docker.
+
+command : docker-compose -f docker-compose.yml up -d --build
 
