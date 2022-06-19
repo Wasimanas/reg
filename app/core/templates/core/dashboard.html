@@ -1,0 +1,23 @@
+{% extends 'core/base.html' %}
+{% block title %} 
+DashBoard
+{% endblock title %}
+{% block content %} 
+<h1> DashBoard </h1>   
+<p>Welcome {{request.user.username}}</p> 
+
+<p> Username : {{request.user.username}} </p> 
+
+<p>First Name : {{request.user.first_name}} </p>
+<p> Last Name : {{request.user.last_name}} </p>
+ Image : <img src="{{request.user.profile_picture.url}}" alt="image"> 
+ <p> User Type : {{request.user.user_type}} </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+
+{% endblock content %}
+
